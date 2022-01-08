@@ -4,5 +4,20 @@
         <body>
             <h1>Mohammad Zayyad</h1>
         </body>
+        <script src="js/pixi.min.js"></script>
+        <script>
+            let app;
+
+            window.onload = function() {
+                app = new PIXI.Application(
+                    {
+                        width: 1600,
+                        height: 600,
+                        backgroundColor: 0xAABAAA
+                    }
+                );
+                document.body.appendChild(app.view);
+            }
+        </script>
     </head>
 </html>
