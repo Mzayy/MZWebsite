@@ -5,22 +5,48 @@
     </head>
         <body>
             <h1>Mohammad Zayyad</h1>
+            <img src="images\Professional Headshot.jpg" alt="Professional Picture" class="center">
+            
+        
+            <nav data-role="ribbonmenu" class="topleft">            
+                <div class="content-holder">
+                    <div class="section" id="section-1-1">
+                        <div class="group">
+                            <button class="ribbon-button selectedpage" onclick="index.html" disabled>
+                                    <span class="icon">
+                                        <img src="images/home.png" width="15px">
+                                    </span>
+                                <span class="caption">Home</span>
+                            </button>            
+                        </div>
+
+                        <form action="html/about.html">
+                            <div class="group">
+                                <button class="ribbon-button">
+                                    <span class="icon">
+                                        <img src="images/about.png"width="15px">
+                                    </span>
+                                    <span class="caption">About</span>
+                                </button>         
+                            </div>
+                        </form>
+            
+                        <form action="html/contact.html">
+                            <div class="group">
+                                <button class="ribbon-button">
+                                    <span class="icon">
+                                        <img src="images/contact.webp" width="15px">
+                                    </span>
+                                <span class="caption">Contact</span>
+                                </button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+        
         </body>
         <script src="js/pixi.min.js"></script>
-        <script>
-            let app;
-
-            // window.onload = function() {
-            //     app = new PIXI.Application(
-            //         {
-            //             width: 1600,
-            //             height: 600,
-            //             backgroundColor: 0xAABAAA
-            //         }
-            //     );
-            //     document.body.appendChild(app.view);
-            // }
-            
-        </script>
     
 </html>
