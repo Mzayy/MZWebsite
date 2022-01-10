@@ -5,10 +5,15 @@
         <title>Mohammad Zayyad</title>
         <link rel="icon" href="images/home.png">
         <script src="js/pixi.min.js"></script>
-        <script src="js/jquery-3.6.0.slim.min.js"></script>
-        <script src="resources/navbarind.js" type="text/javascript" defer></script>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script>
+            $(document).ready(function(){   
+                $('#navigation').load("resources/navbarind.html");
+            });
+        </script>
     </head>
     <body>
+        <div id="navigation"></div>
         <img src="images/Professional Headshot.jpg" alt="Professional" class="center"> 
         <img src="images/Professional Headshot.jpg" alt="Professional" class="center"> 
         <img src="images/Professional Headshot.jpg" alt="Professional" class="center"> 
