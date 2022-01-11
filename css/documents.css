@@ -1,0 +1,76 @@
+.resume{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    width: 48%;
+    top: 1.5%;
+    left: 1%;
+    height: 48%;
+    z-index: -1;
+}
+.full{
+    height: 100%;
+    width: 100%;
+}
+.CV{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    width: 48%;
+    top: 1.5%;
+    right: 1%;
+    height: 48%;
+    z-index: -1;
+}
+
+.college-transcript{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    width: 48%;
+    top: 50.5%;
+    left: 1%;
+    height: 48%;
+    z-index: -1;
+}
+
+.highschool-transcript{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    width: 48%;
+    top: 50.5%;
+    right: 1%;
+    height: 48%;
+    z-index: -1;
+}
+
+  
+.no-bullet{
+    list-style: none;
+}
+
+h2 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    z-index: 1;
+    font-family: Helvetica;
+    float: inline-start;
+    padding: 10px;
+    background-color: white;
+    border-style: solid;
+    left: 0px;
+    top: -2.1%;
+}
+.lower
+{
+  position: absolute;
+  display: inline-block;
+  top: 7%;
+  width: 90%;
+  left: 5%;
+  height: 185%;
+  background-color: rgb(255, 255, 255);
+  z-index: -2;
+}
