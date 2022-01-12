@@ -6,11 +6,12 @@
     top: 1.5%;
     left: 1%;
     height: 48%;
-    z-index: -1;
+    z-index: -1;    
 }
 .full{
     height: 100%;
     width: 100%;
+    overflow-y: hidden;
 }
 .CV{
     display: inline-block;
