@@ -32,6 +32,7 @@ h2 {
 .contacts .Contact{
     display: inline-block;
     vertical-align: top;
+    vertical-align: bottom;
     position: relative; 
     border-style: solid;
     border-color: black;    
@@ -54,6 +55,7 @@ h3 {
     margin: 0%;
     font-size: 35px;
     padding-top: 6%;
+    word-break: break-all;
 }
 h4 {
     color: black;
@@ -63,6 +65,7 @@ h4 {
     padding: 0px;
     font-size:x-large;
     padding-top: 1.6%;
+    word-break: break-all;
 }
 h5 {
     color: black;
@@ -72,4 +75,5 @@ h5 {
     padding: 0px;
     font-size:x-large;
     padding-top: 4%;
+    word-break: break-all;
 }
